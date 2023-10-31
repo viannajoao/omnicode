@@ -43,6 +43,7 @@ const srRight = ScrollReveal({
 })
 
 srRight.reveal('.col', { delay: 100 })
+srRight.reveal('.info', { delay: 100})
 
 const srTop = ScrollReveal({
   origin: 'top',
