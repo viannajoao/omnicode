@@ -353,7 +353,10 @@ nav{
 
 #our-industries{
   width: 100%;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin-top: 40px;
 }
 
@@ -367,15 +370,16 @@ nav{
 }
 
 .grid{
-  width: 70%;
+  width: 80%;
   /* background-color: red; */
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  flex-wrap: wrap;
-  padding: 20px;
+  gap: 10px;
+  margin-top: 20px;
+  /* padding: 20px;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 50px; */
 }
 
 
@@ -388,7 +392,7 @@ nav{
 }
 
 .industries{
-  width: 300px;
+  width: 82%;
   /* background-color: #ebebeb; */
   padding: 30px 20px;
   display: flex;
@@ -721,6 +725,16 @@ footer{
   .footer-content{
     grid-template-columns: repeat(1, 1fr);
     padding: 3rem 2rem;
+  }
+
+  .grid{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 700px){
+  .grid{
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
