@@ -194,7 +194,7 @@ nav{
 .col{
   display: flex;
   max-width: 95%;
-  width: 500px;
+  width: 450px;
   
 }
 
@@ -413,6 +413,7 @@ nav{
   width: 400px;
   margin: auto;
   font-size: 18px;
+  text-align: center;
   font-weight: 700;
   color: var(--cor-back);
   border-bottom: 4px solid var(--cor-text-secund);
@@ -607,15 +608,16 @@ nav{
 }
 
 .get-in-touch input{
-  width: 200px;
-  padding: 5px;
+  width: 300px;
+  padding: 10px;
   margin: 0 10px;
+  border-radius: 5px;
   outline: none;
 }
 
 .get-in-touch button{
   width: 200px;
-  padding: 6px;
+  padding: 10px;
   color: var(--cor-text);
   background-color: var(--cor-primary);
   border: none;
