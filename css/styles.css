@@ -257,7 +257,7 @@ nav{
 }
 
 #mission{
-  background-image: url(/images/visao.jpg);
+  background-image: url(/images/visao.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -265,7 +265,7 @@ nav{
 }
 
 #vision{
-  background-image: url(/images/visao-missao-planejamento-conceito-de-processo-de-aspiracoes.jpg);
+  background-image: url(/images/visao-missao-planejamento-conceito-de-processo-de-aspiracoes.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -273,7 +273,7 @@ nav{
 }
 
 #value{
-  background-image: url(/images/valores.jpg);
+  background-image: url(/images/valores.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
