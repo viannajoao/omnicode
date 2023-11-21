@@ -932,6 +932,10 @@ footer{
   .form-contact{
     height: 400px;
   }
+
+  .mission h3{
+    margin-bottom: 40px;
+  }
 }
 
 @media screen and (max-width: 321px){
