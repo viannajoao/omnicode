@@ -364,7 +364,7 @@ nav{
   font-size: 18px;
   font-weight: 700;
   color: var(--cor-back);
-  border-bottom: 4px solid var(--cor-text-secund);
+  border-bottom: inherit dashed var(--cor-text-secund);
 }
 
 .grid{
@@ -456,7 +456,7 @@ nav{
 
 #profile1{
   background-image: url(/images/4ea78f5c7257fe05fc4e55efea223b1a.jpeg);
-  background-position: top;
+  background-position: top ;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -490,14 +490,14 @@ nav{
 
 #profile2{
   background-image: url(/images/93da2b14-b220-4ae9-9aed-8d4e5bc3a77c.jpeg);
-  background-position: top;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #profile3{
   background-image: url(/images/Retrato\ Corporativo\ _\ Foto\ para\ LinkedIn\ _\ Perfil\ Profissional\ _\ São\ Paulo_BR.jpeg);
-  background-position: top;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
