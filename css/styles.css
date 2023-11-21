@@ -133,7 +133,7 @@ nav{
 
 .banner{
   height: 70vh;
-  background-image: url(/images/imagem-de-close-up-de-programador-trabalhando-em-sua-mesa-no-escritorio.jpg) ;
+  background-image: url(/images/imagem-de-close-up-de-programador-trabalhando-em-sua-mesa-no-escritorio.webp) ;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -215,6 +215,7 @@ nav{
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
   padding-block: 30px 70px;
   padding-inline: 20px;
   width: 100%;
@@ -229,6 +230,7 @@ nav{
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
   padding-block: 30px 70px;
   padding-inline: 20px;
   width: 100%;
@@ -242,18 +244,67 @@ nav{
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   padding-block: 30px 70px;
   padding-inline: 20px;
   width: 100%;
+  height: 350px;
   color: var(--cor-text);
   background: rgba(0, 0, 0, 0.342);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   border-radius: 20px;
 }
 
+.value h3{
+  margin-bottom: 20px;
+  font-size: 25px;
+  /* background-color: green; */
+  margin-top: 70px;
+}
+
+.value ul{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 20px;
+  padding: 20px 10px;
+  /* background-color: red; */
+  margin-top: -10px;
+  font-style: italic;
+}
+
+.vision h3{
+  margin-bottom: 70px;
+  font-size: 35px;
+}
+
+.vision p{
+  width: 90%;
+  font-size: 18px;
+  font-style: italic;
+  padding: 10px;
+  margin-top: -50px;
+}
+
+.mission h3{
+  margin-bottom: 70px;
+  font-size: 25px;
+}
+
+.mission p{
+  width: 90%;
+  font-size: 18px;
+  font-style: italic;
+  padding: 10px;
+  margin-top: -40px;
+  /* background-color: red; */
+}
+
 #mission{
-  background-image: url(/images/visao.jpg);
+  background-image: url(/images/visao.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -261,7 +312,7 @@ nav{
 }
 
 #vision{
-  background-image: url(/images/visao-missao-planejamento-conceito-de-processo-de-aspiracoes.jpg);
+  background-image: url(/images/visao-missao-planejamento-conceito-de-processo-de-aspiracoes.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -269,7 +320,7 @@ nav{
 }
 
 #value{
-  background-image: url(/images/valores.jpg);
+  background-image: url(/images/valores.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -362,6 +413,7 @@ nav{
   width: 400px;
   margin: auto;
   font-size: 18px;
+  text-align: center;
   font-weight: 700;
   color: var(--cor-back);
   border-bottom: inherit dashed var(--cor-text-secund);
@@ -556,15 +608,16 @@ nav{
 }
 
 .get-in-touch input{
-  width: 200px;
-  padding: 5px;
+  width: 300px;
+  padding: 10px;
   margin: 0 10px;
+  border-radius: 5px;
   outline: none;
 }
 
 .get-in-touch button{
   width: 200px;
-  padding: 6px;
+  padding: 10px;
   color: var(--cor-text);
   background-color: var(--cor-primary);
   border: none;
